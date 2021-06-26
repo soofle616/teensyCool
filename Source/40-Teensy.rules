@@ -1,0 +1,5 @@
+#teensyCool
+SUBSYSTEMS=="usb",KERNEL=="ttyACM*",ATTRS{idVendor}=="16c0",ATTRS{idProduct}=="0483",SYMLINK+="zbot_schnozz",GROUP="dialout",MODE="0666"
+
+#teensyIO
+SUBSYSTEMS=="usb",KERNEL=="ttyACM*",ATTRS{idVendor}=="16c0",ATTRS{idProduct}=="048c",SYMLINK+="USBIO%n",GROUP="dialout,MODE="0666"
